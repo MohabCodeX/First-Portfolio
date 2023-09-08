@@ -1,0 +1,72 @@
+body{
+    background-color: #0c0c0c;
+}
+
+#slider {
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    height: 720px; /* Set the height to 1080px for 1920x1080 photos */
+    width: 1280px; /* Set the width to 1920px for 1920x1080 photos */
+    border: 5px black solid;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 400%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+#wrapper .content {
+    float: right;
+    width: 25%;
+    height: 100%;
+}
+
+#wrapper .content img {
+    width: 100%;
+    height: 100%; /* Set the height to 100% to fill the container */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+#navLinks {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 45%; 
+}
+
+#navLinks ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+#navLinks ul li {
+    float: right;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #333; /* Dark Gray */
+    color: #FFF; /* White */
+    list-style: none;
+    border: black 5px solid;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+#navLinks ul li:hover {
+    background-color: #555; /* Slightly Darker Gray on Hover */
+}
+
+#navLinks ul li.active {
+    background-color: #7f44ee; /* Slightly Darker Gray for Active */
+}
+
+
+#navLinks ul li.active:hover {
+    background-color: #484848;
+}

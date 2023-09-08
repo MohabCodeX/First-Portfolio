@@ -1,0 +1,198 @@
+@import url(https://fonts.google.com/specimen/Changa?query=changa);
+
+body {
+    font-family: 'changa', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    direction: rtl;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main>section {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#branding a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header {
+    background: rgb(22, 22, 22);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-bottom: 3px solid #32c2bb;
+    padding: 0px 80px;
+}
+
+#branding {
+    flex-grow: 8;
+    /* Maintain flex-grow for larger screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #branding {
+        flex-grow: 1;
+        /* Adjust flex-grow for smaller screens */
+        display: flex;
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
+    }
+
+    #branding h1 {
+        font-size: 24px;
+        /* Reduce font size for smaller screens if needed */
+    }
+}
+
+
+#branding h1 {
+    font-size: 28px;
+}
+
+nav>ul {
+    margin-top: 0px;
+    list-style-type: none;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.5s;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+/* Add hover styles for nav a elements */
+nav a:hover {
+    color: #5253b9;
+}
+
+.current a {
+    color: #32c239;
+}
+
+nav>ul>li {
+    float: right;
+    margin-left: 40px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* showcase & newsletter */
+#showcase {
+    min-height: 641px;
+    background: url('../img/b.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 20px;
+}
+
+#showcase h1 {
+    margin-top: 60px;
+    font-size: 90px;
+    margin-bottom: -30px;
+}
+
+#showcase p {
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 60px 0px;
+}
+
+#showcase h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: -40px;
+}
+
+#newsletter {
+    padding: 15px 120px;
+    color: #ffffff;
+    background: #09091f;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#newsletter h1 {
+    float: right;
+}
+
+#newsletter form {
+    float: left;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.button {
+    height: 38px;
+    background: #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #353637;
+}
+
+
+/* boxes & footer*/
+#boxes {
+    margin-top: 20px;
+    padding: 60px 120px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#boxes .box {
+    text-align: center;
+    margin-left: 10px;
+}
+
+@media (max-width: 1020px) {
+    #boxes {
+        flex-direction: column;
+    }
+}
+
+#footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #13131b;
+    text-align: center;
+}
