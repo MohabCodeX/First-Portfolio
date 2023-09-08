@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![Portfolio Preview](https://imgur.com/a/uqqSnyq.png)
+![Portfolio Preview](https://i.imgur.com/kZ5fOsP.png)
 
 ## Table of Contents
 
