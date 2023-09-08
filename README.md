@@ -1,4 +1,4 @@
-# ملف توجيه للسيرة الذاتية الشخصية
+# مشروع السيرة الذاتية الشخصية
 
 [Switch to English Version](#personal-portfolio)
 
