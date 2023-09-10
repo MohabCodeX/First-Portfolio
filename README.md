@@ -6,16 +6,16 @@
 
 ## Table of Contents 📜
 
-- [Description](#description📝)
-- [Files Included](files-included-📁)
-- [Usage](#usage-🚀)
-- [How to Run](#how-to-run-🏃‍♂️)
-- [Dependencies](#dependencies-🛠️)
-- [Additional Notes](#additional-notes-📌)
-- [Author](#author-👨‍💻)
-- [License](#license-📜)
+- [Description](#description)
+- [Files Included](#files-included)
+- [Usage](#usage)
+- [How to Run](#how-to-run)
+- [Dependencies](#dependencies)
+- [Additional Notes](#additional-notes)
+- [Author](#author)
+- [License](#license)
 
-## Description📝
+## Description 📝
 
 This project is a personal portfolio website that demonstrates the fundamental skills learned in front-end web development. It features two main pages:
 
@@ -68,14 +68,14 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## جدول المحتويات 📜
 
-- [الوصف](#الوصف-📝)
-- [الملفات المضمنة](#الملفات-المضمنة-📁)
-- [الاستخدام](#الاستخدام-🚀)
-- [كيفية التشغيل](#كيفية-التشغيل-🏃‍♂️)
-- [التبعيات](#التبعيات-🛠️)
-- [ملاحظات إضافية](#ملاحظات-إضافية-📌)
-- [المؤلف](#المؤلف-👨‍💻)
-- [الترخيص](#الترخيص-📜)
+- [الوصف](#الوصف)
+- [الملفات المضمنة](#الملفات-المضمنة)
+- [الاستخدام](#الاستخدام)
+- [كيفية التشغيل](#كيفية-التشغيل)
+- [التبعيات](#التبعيات)
+- [ملاحظات إضافية](#ملاحظات-إضافية)
+- [المؤلف](#المؤلف)
+- [الترخيص](#الترخيص)
 
 ## الوصف 📝
 
